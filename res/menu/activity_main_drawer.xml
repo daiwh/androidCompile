@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/c"
+            android:icon="@drawable/c"
+            android:title="C/C++" />
+        <item
+            android:id="@+id/Python"
+            android:icon="@drawable/python"
+            android:title="Python" />
+        <item
+            android:id="@+id/JAVA"
+            android:icon="@drawable/java"
+            android:title="JAVA" />
+        <item
+            android:id="@+id/Perl"
+            android:icon="@drawable/perl"
+            android:title="Perl" />
+    </group>
+
+    <item android:title="编译运行">
+        <menu>
+            <item
+                android:id="@+id/compile"
+                android:icon="@drawable/compile"
+                android:title="编译" />
+            <item
+                android:id="@+id/run"
+                android:icon="@drawable/run"
+                android:title="运行" />
+        </menu>
+    </item>
+
+</menu>
